@@ -1,7 +1,7 @@
 # 📚 **Personal Library: Smart Book Discovery & Virtual Library**  
 
 ## 🚀 **Live Demo**  
-🌍 **Deployed App:** [BookWise on Netlify](https://your-netlify-url.netlify.app)  
+🌍 **Deployed App:** https://personalisedlibrary.netlify.app/
 
 ---
 
@@ -55,7 +55,7 @@ This application provides an **intuitive, seamless, and visually engaging** expe
 - **Local Storage** for **persistent data retention**.  
 
 ### 🔹 **Deployment**  
-- Hosted on **Netlify** → [View Live](https://your-netlify-url.netlify.app)  
+- Hosted on **Netlify** → https://personalisedlibrary.netlify.app/ 
 
 ---
 
