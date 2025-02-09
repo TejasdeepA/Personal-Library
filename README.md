@@ -1,8 +1,4 @@
-Here’s your updated **README.md** file, including the **deployed URL** for your project. Just replace `your-netlify-url` with the actual link from Netlify.  
-
----
-
-# 📚 **BookWise: Smart Book Discovery & Virtual Library**  
+# 📚 **Personal Library: Smart Book Discovery & Virtual Library**  
 
 ## 🚀 **Live Demo**  
 🌍 **Deployed App:** [BookWise on Netlify](https://your-netlify-url.netlify.app)  
@@ -10,7 +6,7 @@ Here’s your updated **README.md** file, including the **deployed URL** for you
 ---
 
 ## 🚀 **Overview**  
-**BookWise** is a modern **book discovery and personal library management application** that allows users to:  
+**Personal Library** is a modern **book discovery and personal library management application** that allows users to:  
 - 🔍 **Search for books** using the **Google Books API**.  
 - 📖 **Organize books into three dynamic shelves**:  
   - **Wishlist**  
@@ -91,8 +87,8 @@ This application provides an **intuitive, seamless, and visually engaging** expe
 
 1. **Clone the Repository:**  
    ```sh
-   git clone https://github.com/your-username/bookwise.git
-   cd bookwise
+   git clone https://github.com/your-username/personal-library.git
+   cd personal library
    ```
 
 2. **Install Dependencies:**  
@@ -110,20 +106,6 @@ This application provides an **intuitive, seamless, and visually engaging** expe
 
 ---
 
-## 🤝 **Contributing**  
-We welcome contributions! Feel free to **submit issues, suggest features, or open pull requests**.  
-
----
-
 ## 📜 **License**  
 This project is licensed under the **MIT License**.  
 
----
-
-## 📬 **Contact & Support**  
-For questions or feedback, reach out via **email** or create an issue in the repository.  
-
----
-
-### 🎉 **Your BookWise App is Now Live!** 🚀  
-Let me know if you need any more modifications! 😊
