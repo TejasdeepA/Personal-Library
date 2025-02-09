@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="header-title">
+                <i data-lucide="library" class="icon-blue"></i>
+                <h1>Personal Library</h1>
+            </div>
+            <form id="searchForm" class="search-form">
+                <div class="search-container">
+                    <i data-lucide="search" class="search-icon"></i>
+                    <input type="text" id="searchInput" placeholder="Search for books...">
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <div id="searchResults" class="search-results hidden">
+            <h2>Search Results</h2>
+            <div class="books-grid" id="searchResultsGrid"></div>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+        </div>
+
+        <div class="shelves" id="shelves"></div>
+    </main>
+
+    <template id="bookCardTemplate">
+        <div class="book-card">
+            <div class="book-cover">
+                <img src="" alt="">
+            </div>
+            <div class="book-info">
+                <h3 class="book-title"></h3>
+                <p class="book-author"></p>
+                <div class="progress-container hidden">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <input type="range" class="progress-input hidden" min="1" max="99" value="0">
+                </div>
+                <div class="book-actions">
+                    <button class="action-button">
+                        <i data-lucide="more-horizontal"></i>
+                    </button>
+                    <div class="action-menu hidden">
+                        <div class="menu-options"></div>
+                        <button class="remove-button">
+                            <i data-lucide="trash-2"></i>
+                            Remove from library
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="js/types.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/googleBooks.js"></script>
+    <script src="js/bookCard.js"></script>
+    <script src="js/bookShelf.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
